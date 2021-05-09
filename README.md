@@ -3,6 +3,7 @@
 ### RxSwift를 활용하여 ToDoList앱 만들기
 - [x] RxSwift 비동기 처리
 - [x] MVVM 구조로 프로젝트 구현
+- [x] SceneCoordinator 구현(화면전환)
 
 ### Step.1
 - 프로젝트 구조 설정
