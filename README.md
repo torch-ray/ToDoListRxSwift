@@ -11,3 +11,8 @@
 ### Step.2
 - MemoryStorage 구현
 - 기본적인 CRUD 메서드 구현
+
+### Step.3
+- Scene 생성(스토리보드)
+- ViewController 생성
+- ViewModel 생성
