@@ -16,3 +16,8 @@
 - Scene 생성(스토리보드)
 - ViewController 생성
 - ViewModel 생성
+
+### Step.4
+- TransitionStyle, TransitionError 생성(화면전환)
+- Scene 전환에 필요한 메서드 구현
+- Scene 전환을 담당하는 SceneCoordinator 생성 및 프로퍼티 & 메서드 구현
