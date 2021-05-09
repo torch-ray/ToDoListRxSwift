@@ -15,6 +15,10 @@
 		711C53AB2647E25800083111 /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53AA2647E25800083111 /* DetailViewModel.swift */; };
 		711C53AD2647E26F00083111 /* ComposeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53AC2647E26F00083111 /* ComposeViewModel.swift */; };
 		711C53AF2647E2A200083111 /* ViewModelBindableType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53AE2647E2A200083111 /* ViewModelBindableType.swift */; };
+		711C53B12647E63B00083111 /* TransitionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B02647E63B00083111 /* TransitionModel.swift */; };
+		711C53B32647E69D00083111 /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B22647E69D00083111 /* Scene.swift */; };
+		711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B42647E98D00083111 /* SceneCoordinatorType.swift */; };
+		711C53B72647EA1900083111 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B62647EA1900083111 /* SceneCoordinator.swift */; };
 		712C31152647C38F006FA12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31142647C38F006FA12B /* AppDelegate.swift */; };
 		712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31162647C38F006FA12B /* SceneDelegate.swift */; };
 		712C311C2647C38F006FA12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712C311A2647C38F006FA12B /* Main.storyboard */; };
@@ -34,6 +38,10 @@
 		711C53AA2647E25800083111 /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		711C53AC2647E26F00083111 /* ComposeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewModel.swift; sourceTree = "<group>"; };
 		711C53AE2647E2A200083111 /* ViewModelBindableType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBindableType.swift; sourceTree = "<group>"; };
+		711C53B02647E63B00083111 /* TransitionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionModel.swift; sourceTree = "<group>"; };
+		711C53B22647E69D00083111 /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
+		711C53B42647E98D00083111 /* SceneCoordinatorType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinatorType.swift; sourceTree = "<group>"; };
+		711C53B62647EA1900083111 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		712C31112647C38F006FA12B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712C31142647C38F006FA12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		712C31162647C38F006FA12B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -148,6 +156,10 @@
 		712C312F2647C5E2006FA12B /* Scene */ = {
 			isa = PBXGroup;
 			children = (
+				711C53B02647E63B00083111 /* TransitionModel.swift */,
+				711C53B22647E69D00083111 /* Scene.swift */,
+				711C53B42647E98D00083111 /* SceneCoordinatorType.swift */,
+				711C53B62647EA1900083111 /* SceneCoordinator.swift */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -293,14 +305,18 @@
 			files = (
 				711C53A72647E1CE00083111 /* ComposeViewController.swift in Sources */,
 				712C31392647CCD6006FA12B /* MemoryStorage.swift in Sources */,
+				711C53B72647EA1900083111 /* SceneCoordinator.swift in Sources */,
+				711C53B32647E69D00083111 /* Scene.swift in Sources */,
 				712C31332647CB89006FA12B /* MemoryStorageType.swift in Sources */,
 				711C53AF2647E2A200083111 /* ViewModelBindableType.swift in Sources */,
 				711C53AD2647E26F00083111 /* ComposeViewModel.swift in Sources */,
 				712C31152647C38F006FA12B /* AppDelegate.swift in Sources */,
 				711C53A92647E23500083111 /* ToDoListViewModel.swift in Sources */,
 				712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */,
+				711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */,
 				712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */,
 				711C53A32647E16500083111 /* ToDoListViewController.swift in Sources */,
+				711C53B12647E63B00083111 /* TransitionModel.swift in Sources */,
 				712C31312647CA46006FA12B /* ToDoList.swift in Sources */,
 				711C53AB2647E25800083111 /* DetailViewModel.swift in Sources */,
 				711C53A52647E1A700083111 /* DetailViewController.swift in Sources */,
