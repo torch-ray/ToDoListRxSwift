@@ -27,7 +27,7 @@
         <!--To-Do-List-->
         <scene sceneID="R6Z-Gc-whq">
             <objects>
-                <viewController id="Vob-Z5-Aa3" sceneMemberID="viewController">
+                <viewController id="Vob-Z5-Aa3" customClass="ToDoListViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="BKQ-tb-tDP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -44,7 +44,7 @@
         <!--Details-->
         <scene sceneID="Miw-yq-Cw0">
             <objects>
-                <viewController storyboardIdentifier="DetailVC" id="458-Qo-XMK" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DetailVC" id="458-Qo-XMK" customClass="DetailViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E5H-Db-kLo">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -79,7 +79,7 @@
         <!--New List-->
         <scene sceneID="3tB-SP-CKc">
             <objects>
-                <viewController id="pU0-51-CnN" sceneMemberID="viewController">
+                <viewController id="pU0-51-CnN" customClass="ComposeViewController" customModule="ToDoList" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ydv-Cg-fYe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
