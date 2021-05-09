@@ -9,5 +9,9 @@ target 'ToDoList' do
   pod 'RxSwift'
   pod 'RxCocoa'
   pod 'Alamofire'
+  pod 'Action'
+  pod 'NSObject+Rx'
+  pod 'RxDataSources'
+  pod 'RxCoreData'
 
 end
