@@ -28,6 +28,7 @@
 		712C31312647CA46006FA12B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31302647CA46006FA12B /* ToDoList.swift */; };
 		712C31332647CB89006FA12B /* MemoryStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31322647CB89006FA12B /* MemoryStorageType.swift */; };
 		712C31392647CCD6006FA12B /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31382647CCD6006FA12B /* MemoryStorage.swift */; };
+		716412332648B8A5002027B3 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716412322648B8A5002027B3 /* CommonViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +54,7 @@
 		712C31302647CA46006FA12B /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		712C31322647CB89006FA12B /* MemoryStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorageType.swift; sourceTree = "<group>"; };
 		712C31382647CCD6006FA12B /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		716412322648B8A5002027B3 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
 		89A61E3D1B385E25CBF63A5A /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 		BBC374B68FF5E8D6E2AA6FCE /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02920477C7C7A94F7AD917E /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				711C53A82647E23500083111 /* ToDoListViewModel.swift */,
 				711C53AA2647E25800083111 /* DetailViewModel.swift */,
 				711C53AC2647E26F00083111 /* ComposeViewModel.swift */,
+				716412322648B8A5002027B3 /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -316,6 +319,7 @@
 				711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */,
 				712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */,
 				711C53A32647E16500083111 /* ToDoListViewController.swift in Sources */,
+				716412332648B8A5002027B3 /* CommonViewModel.swift in Sources */,
 				711C53B12647E63B00083111 /* TransitionModel.swift in Sources */,
 				712C31312647CA46006FA12B /* ToDoList.swift in Sources */,
 				711C53AB2647E25800083111 /* DetailViewModel.swift in Sources */,
