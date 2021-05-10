@@ -20,7 +20,6 @@
 		711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B42647E98D00083111 /* SceneCoordinatorType.swift */; };
 		711C53B72647EA1900083111 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B62647EA1900083111 /* SceneCoordinator.swift */; };
 		712C31152647C38F006FA12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31142647C38F006FA12B /* AppDelegate.swift */; };
-		712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31162647C38F006FA12B /* SceneDelegate.swift */; };
 		712C311C2647C38F006FA12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712C311A2647C38F006FA12B /* Main.storyboard */; };
 		712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 712C311D2647C38F006FA12B /* ToDoList.xcdatamodeld */; };
 		712C31212647C390006FA12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712C31202647C390006FA12B /* Assets.xcassets */; };
@@ -28,6 +27,8 @@
 		712C31312647CA46006FA12B /* ToDoList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31302647CA46006FA12B /* ToDoList.swift */; };
 		712C31332647CB89006FA12B /* MemoryStorageType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31322647CB89006FA12B /* MemoryStorageType.swift */; };
 		712C31392647CCD6006FA12B /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31382647CCD6006FA12B /* MemoryStorage.swift */; };
+		716412332648B8A5002027B3 /* CommonViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716412322648B8A5002027B3 /* CommonViewModel.swift */; };
+		716412362648BB67002027B3 /* ToDoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716412352648BB67002027B3 /* ToDoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,7 +45,6 @@
 		711C53B62647EA1900083111 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		712C31112647C38F006FA12B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712C31142647C38F006FA12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		712C31162647C38F006FA12B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		712C311B2647C38F006FA12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712C311E2647C38F006FA12B /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		712C31202647C390006FA12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +53,8 @@
 		712C31302647CA46006FA12B /* ToDoList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoList.swift; sourceTree = "<group>"; };
 		712C31322647CB89006FA12B /* MemoryStorageType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorageType.swift; sourceTree = "<group>"; };
 		712C31382647CCD6006FA12B /* MemoryStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		716412322648B8A5002027B3 /* CommonViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonViewModel.swift; sourceTree = "<group>"; };
+		716412352648BB67002027B3 /* ToDoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoCell.swift; sourceTree = "<group>"; };
 		89A61E3D1B385E25CBF63A5A /* Pods-ToDoList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.debug.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.debug.xcconfig"; sourceTree = "<group>"; };
 		BBC374B68FF5E8D6E2AA6FCE /* Pods_ToDoList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToDoList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02920477C7C7A94F7AD917E /* Pods-ToDoList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToDoList.release.xcconfig"; path = "Target Support Files/Pods-ToDoList/Pods-ToDoList.release.xcconfig"; sourceTree = "<group>"; };
@@ -100,13 +102,13 @@
 		712C31132647C38F006FA12B /* ToDoList */ = {
 			isa = PBXGroup;
 			children = (
+				716412342648BB5E002027B3 /* View */,
 				712C312F2647C5E2006FA12B /* Scene */,
 				712C312E2647C5D5006FA12B /* Service */,
 				712C312D2647C5C7006FA12B /* ViewModel */,
 				712C312C2647C5B7006FA12B /* ViewController */,
 				712C312B2647C5A1006FA12B /* Model */,
 				712C31142647C38F006FA12B /* AppDelegate.swift */,
-				712C31162647C38F006FA12B /* SceneDelegate.swift */,
 				712C31202647C390006FA12B /* Assets.xcassets */,
 				712C31252647C390006FA12B /* Info.plist */,
 			);
@@ -140,6 +142,7 @@
 				711C53A82647E23500083111 /* ToDoListViewModel.swift */,
 				711C53AA2647E25800083111 /* DetailViewModel.swift */,
 				711C53AC2647E26F00083111 /* ComposeViewModel.swift */,
+				716412322648B8A5002027B3 /* CommonViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -179,6 +182,14 @@
 				712C311D2647C38F006FA12B /* ToDoList.xcdatamodeld */,
 			);
 			path = CoreDataStorage;
+			sourceTree = "<group>";
+		};
+		716412342648BB5E002027B3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				716412352648BB67002027B3 /* ToDoCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		954450871BB3D8F39EC30E9E /* Frameworks */ = {
@@ -310,12 +321,13 @@
 				712C31332647CB89006FA12B /* MemoryStorageType.swift in Sources */,
 				711C53AF2647E2A200083111 /* ViewModelBindableType.swift in Sources */,
 				711C53AD2647E26F00083111 /* ComposeViewModel.swift in Sources */,
+				716412362648BB67002027B3 /* ToDoCell.swift in Sources */,
 				712C31152647C38F006FA12B /* AppDelegate.swift in Sources */,
 				711C53A92647E23500083111 /* ToDoListViewModel.swift in Sources */,
-				712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */,
 				711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */,
 				712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */,
 				711C53A32647E16500083111 /* ToDoListViewController.swift in Sources */,
+				716412332648B8A5002027B3 /* CommonViewModel.swift in Sources */,
 				711C53B12647E63B00083111 /* TransitionModel.swift in Sources */,
 				712C31312647CA46006FA12B /* ToDoList.swift in Sources */,
 				711C53AB2647E25800083111 /* DetailViewModel.swift in Sources */,
