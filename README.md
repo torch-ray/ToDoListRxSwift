@@ -27,3 +27,6 @@
 - 불필요한 주석 및 메서드 삭제
 - ToDoListViewModel & ToDoListViewController bind 메서드 구현
 - CustomCell 생성
+- View 디자인은 추후에 적용
+#### 실행화면
+<img src="https://user-images.githubusercontent.com/74946802/117594338-e4568780-b178-11eb-9fc6-91f4a0862dd7.png" width="300" height="600">
