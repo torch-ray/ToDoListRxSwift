@@ -20,7 +20,6 @@
 		711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B42647E98D00083111 /* SceneCoordinatorType.swift */; };
 		711C53B72647EA1900083111 /* SceneCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 711C53B62647EA1900083111 /* SceneCoordinator.swift */; };
 		712C31152647C38F006FA12B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31142647C38F006FA12B /* AppDelegate.swift */; };
-		712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712C31162647C38F006FA12B /* SceneDelegate.swift */; };
 		712C311C2647C38F006FA12B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 712C311A2647C38F006FA12B /* Main.storyboard */; };
 		712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 712C311D2647C38F006FA12B /* ToDoList.xcdatamodeld */; };
 		712C31212647C390006FA12B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 712C31202647C390006FA12B /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 		711C53B62647EA1900083111 /* SceneCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneCoordinator.swift; sourceTree = "<group>"; };
 		712C31112647C38F006FA12B /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		712C31142647C38F006FA12B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		712C31162647C38F006FA12B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		712C311B2647C38F006FA12B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		712C311E2647C38F006FA12B /* ToDoList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList.xcdatamodel; sourceTree = "<group>"; };
 		712C31202647C390006FA12B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 				712C312C2647C5B7006FA12B /* ViewController */,
 				712C312B2647C5A1006FA12B /* Model */,
 				712C31142647C38F006FA12B /* AppDelegate.swift */,
-				712C31162647C38F006FA12B /* SceneDelegate.swift */,
 				712C31202647C390006FA12B /* Assets.xcassets */,
 				712C31252647C390006FA12B /* Info.plist */,
 			);
@@ -327,7 +324,6 @@
 				716412362648BB67002027B3 /* ToDoCell.swift in Sources */,
 				712C31152647C38F006FA12B /* AppDelegate.swift in Sources */,
 				711C53A92647E23500083111 /* ToDoListViewModel.swift in Sources */,
-				712C31172647C38F006FA12B /* SceneDelegate.swift in Sources */,
 				711C53B52647E98D00083111 /* SceneCoordinatorType.swift in Sources */,
 				712C311F2647C38F006FA12B /* ToDoList.xcdatamodeld in Sources */,
 				711C53A32647E16500083111 /* ToDoListViewController.swift in Sources */,
