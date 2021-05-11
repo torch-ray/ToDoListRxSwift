@@ -30,3 +30,10 @@
 - View 디자인은 추후에 적용
 #### 실행화면
 <img src="https://user-images.githubusercontent.com/74946802/117594338-e4568780-b178-11eb-9fc6-91f4a0862dd7.png" width="300" height="600">
+
+### Step.6
+- [RandomColor Custom 프레임워크 생성](https://github.com/torch-ray/RandomColorFramework)
+- 해당 프레임워크 활용하여 간단한 뷰 디자인
+#### 실행화면
+- CustomCell 생성
+<img src="https://user-images.githubusercontent.com/74946802/117823289-482b9e00-b2a8-11eb-8ef2-607bae3ef1f1.png" width="300" height="600">
